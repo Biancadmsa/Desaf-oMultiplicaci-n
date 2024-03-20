@@ -6,7 +6,7 @@ const multiplicar = (numero) => {
     let factorial = 1; // Parte el factorial en 1
     if (numero >= 1 && numero <= 20) {
         // Calculo de  multiplicaciones
-        for (let i = 1; i <= 20; i++) {
+        for (let i = 1; i <= 10; i++) {
             resultado += i + " x " + numero + " = " + (i * numero) + "<hr>" + "<br>";
         }
 
